@@ -50,7 +50,7 @@ def display_credentials(user_name):
 	
 def copy_credential(site_name):
 	'''
-	Function to copy a credentials details to the clipboard
+	Function to copy the credentials details to the clipboard
 	'''
 	return Credential.copy_credential(site_name)
 
