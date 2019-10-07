@@ -1,6 +1,6 @@
 # Python Password Locker
 
-## Created by [Jecinta Wanjiru ]
+## Created by [Jecinta Wanjiru ]https://github.com/JECINTA534521/password-locker-python
 
 ## Description
 Password Locker is a terminal run python application that allows users to store details i.e. usernames and passwords of their various accounts.
