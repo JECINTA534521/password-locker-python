@@ -55,9 +55,9 @@ def copy_credential(site_name):
 	return Credential.copy_credential(site_name)
 
 def main():
-	print(' ')
-	print('Hi! Welcome to Password Locker.')
-	while True:
+    print(' ')
+    print('Hi! Welcome to the Password Locker Python app')
+    while True:
 		print(' ')
 		print("-"*60)
 		print('Use these codes to select: \n ca-Create an Account \n li-Log In \n ex-Exit')
