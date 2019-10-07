@@ -41,10 +41,11 @@ class TestCredentials(unnitest.TestCase):
 		'''
 		Function to test whether the login in function check_user works as expected
 		'''
-		self.new_user = User('Jecinta','Gathitu,'jsrt200')
-		self.new_user.save_user()
+		self.new_user = User('Jecinta', 'Gathitu', 'jsrt200')
+        self.new_user.save_user()
 		user2 = User('Samuel','Njiiri,'jsrt200')
 		user2.save_user()
+
 
 		for user in User.users_list:
 			if user.first_name == user2.first_name and user.password == user2.password:
